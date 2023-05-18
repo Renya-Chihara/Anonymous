@@ -22,6 +22,10 @@ button:hover {
   cursor: pointer; /*カーソルの形を変える*/
 }
 
+li {
+  margin-right: 8px;
+}
+
 .input-area {
   background-color: #c1ffff;
   width: 400px;
@@ -60,8 +64,4 @@ button:hover {
   display: flex; /*横並びに整列*/
   align-items: center; /*中央揃え*/
   padding-bottom: 4px;
-}
-
-.list-row p {
-  margin-right: 8px;
 }
